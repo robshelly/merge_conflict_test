@@ -41,7 +41,7 @@
       return 'Hello, ' + this.name.first + '! You have ' + tags.integer(5, 10) + ' unread messages.';
     },
     favoriteFruit: function (tags) {
-      var fruits = ['apple', 'banana', 'strawberry'];
+      var fruits = ['apple', 'pear', 'strawberry'];
       return fruits[tags.integer(0, fruits.length - 1)];
     }
   }
